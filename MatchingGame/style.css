@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(213, 213, 213, 0.633);
+  margin: 0;
+}
+
+.scoreTracker {
+  padding: 0.5px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+  font-size: 15px;
+}
+
+img {
+  width: 95%;
+  height: 95%;
+}
+.gameover {
+  display: none;
+  text-align: center;
+  color: rgb(255, 121, 12);
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 600px) {
+  .grid {
+  display: grid;
+    grid-template-columns: 50px 2fr;
+    gap: 40px;
+  
+ 
+    background-color: rgb(210, 177, 32);
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
